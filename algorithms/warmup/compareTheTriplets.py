@@ -8,7 +8,7 @@ aTotal = 0
 bTotal = 0
 
 for i in range(3):
-    if int(aMarkList[i]) > int(bMarkList[i]):
+    if int(aMarkList[i]) > int(bMarkList[i]): #remember to cast to int else soln is wrong
         aTotal += 1
     elif int(bMarkList[i]) > int(aMarkList[i]):
         bTotal += 1
