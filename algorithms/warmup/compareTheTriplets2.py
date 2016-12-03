@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# NOTE: Lst comprehension in this way
 aMarkList = [int(x) for x in input().strip().split(' ')]
 bMarkList = [int(x) for x in input().strip().split(' ')]
 
