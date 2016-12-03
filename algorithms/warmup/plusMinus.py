@@ -14,4 +14,4 @@ for int in ints:
         negativeCount += 1
 
 # NOTE: How this print statement works!!
-print("%.6f\n%.6f\n%.6f" % (positiveCount/num, zeroCount/num, negativeCount/num))
+print("%.6f\n%.6f\n%.6f" % (positiveCount/num, negativeCount/num, zeroCount/num))
