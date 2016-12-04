@@ -26,4 +26,5 @@ elif x1 > x2 and v2 > v1:
             flag = 1
             break
 
+# NOTE: Shorthand conditionals
 print("YES") if flag == 1 else print("NO")
