@@ -1,22 +1,10 @@
 #!/usr/bin/env python3
 
-# taking input
-sizeOfArray = int(input())
-numArrayLine = input()
+n = int(input())
+arr = [int(x) for x in input().split(' ')]
 
-# DEBUG INFO
-# print(numArrayLine, sizeOfArray)
+sum = 0;
+for num in arr:
+    sum += num
 
-# splitting and putting into list
-splitLineList = numArrayLine.split(' ')
-
-# DEBUG INFO
-# print(splitLineList)
-
-# going through list and calculating sum
-
-# NOTE: need to first declare sum = 0 before starting adding
-sum = 0
-for num in splitLineList:
-    sum += int(num)
 print(sum)

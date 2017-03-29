@@ -43,6 +43,15 @@ for i in listOfNumSame:
 
 astWithNoSameCountry = numAst - numAstInSame
 
+# 10 5 3 1 1 1 1
+# 10*5 + 10*3 + 10*(astWithNoSameCountry) + 5*3 + 5*(astWithNoSameCountry) + 3*(astWithNoSameCountry) + (astWithNoSameCountry)*(astWithNoSameCountry - 1)/2
+#
+
+
+
+
+
+################################################################
 # these many times append 1 to the list len
 for i in range(astWithNoSameCountry):
     listOfNumSame.append(1)
